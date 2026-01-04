@@ -4,9 +4,7 @@ This project is a browser-based interactive map that displays voter registration
 
 The map allows users to click on a district to view voter totals, demographic breakdowns, and comparisons to citywide data.
 
----
-
-## How to Use (No Setup Required)
+HOW TO USE (NO SETUP REQUIRED)
 
 1. Open the website link in any modern web browser.
 2. Zoom and pan the map as needed.
@@ -14,10 +12,35 @@ The map allows users to click on a district to view voter totals, demographic br
 
 No software installation, accounts, or configuration is required for viewers.
 
----
+HOW TO UPDATE THE DATA
 
-## How to Update the Data
+1. Replace data/district_data.csv with a new CSV file using the same column names.
+2. Replace data/districts.geojson if district boundaries change.
+3. Refresh the webpage.
 
-To update the information shown on the map:
+Changes will appear immediately after refresh.
 
-1. Replace `data/district_data.csv` with a new CSV file usin_
+FILE OVERVIEW
+
+index.html – Main webpage  
+css/style.css – Page styling  
+js/app.js – Map logic and interactivity  
+data/district_data.csv – Aggregated voter statistics  
+data/districts.geojson – District boundary polygons  
+
+HOSTING
+
+This site is intended to be hosted as a static website.
+
+Recommended free hosting options:
+- GitHub Pages
+- Netlify
+- Vercel
+
+Once hosted, anyone can access the map using a simple URL.
+
+NOTES
+
+All data should be aggregated and anonymized before publishing.
+Raw voter records should not be included.
+This project is read-only by design.
