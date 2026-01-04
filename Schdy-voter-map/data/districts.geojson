@@ -1,0 +1,42 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "District": "1"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [-73.955, 42.820],
+              [-73.935, 42.820],
+              [-73.935, 42.835],
+              [-73.955, 42.835],
+              [-73.955, 42.820]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "District": "2"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [-73.955, 42.800],
+              [-73.935, 42.800],
+              [-73.935, 42.820],
+              [-73.955, 42.820],
+              [-73.955, 42.800]
+            ]
+          ]
+        }
+      }
+    ]
+  }
+  
